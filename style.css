@@ -43,7 +43,7 @@ main {
     padding: 2rem;
 }
 .product-content h2{
-    animation: h2 1s ease-in infinitegit;
+    animation: h2 1s ease-in infinite;
 }
 @keyframes h2{
     10%{
