@@ -2,6 +2,8 @@ body {
     font-family: sans-serif;
 }
 
+
+
 header {
     padding: 1rem;
     background-color: white;
@@ -63,6 +65,10 @@ main {
     color: white;
     cursor: pointer;
     font-weight: 700;
+}
+.product-price button:active{
+    background-color: rgb(32, 218, 156);
+    scale: 1.5;
 }
 
 .product-price button:hover{
