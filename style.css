@@ -63,6 +63,22 @@ main {
     cursor: pointer;
     font-weight: 700;
     display:none;
+    animation: button 1s ease-in 0s 3;
+}
+
+@keyframes button {
+    10%{
+        transform: scale(1)
+    }
+    50%{
+        transform: scale(1.5);
+    }
+    70%{
+        transform: scale(1.8 1.9);
+    }
+    100%{
+        transform: scale(1);
+    }
 }
 .product-content :hover{
     button{
