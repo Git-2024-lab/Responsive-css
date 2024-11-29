@@ -35,17 +35,19 @@ main {
     width: 100%;
 }
 
+.product-image-box img:hover{
+    scale: 1.5;
+}
+
+
 .product-content {
     padding: 2rem;
-    /* display: grid; */
-    /* gap: 1rem; */
 }
 
 .product-price {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* gap: 1rem; */
 }
 
 .product-price p {
@@ -63,6 +65,10 @@ main {
     font-weight: 700;
 }
 
+.product-price button:hover{
+    scale: 1.5;
+}
+
 footer {
     padding: 2rem;
     background-color: #ebebeb;
@@ -78,7 +84,7 @@ footer {
         display: flex;
         justify-content: space-between;
         text-align: left;
-        gap: 1rem;
+        gap: 2rem;
     }
     footer section{
         display: flex;
